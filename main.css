@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-image: url(./imagens/agenda-personalizada.jpg);
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0067B3;
+    color: #FFD53D;
+}
+
+header img {
+    display: inline-flex;
+    height: 64px;
+}
+
+form {
+    width: 80%; /* Define uma largura fixa para o formulário */
+    max-width: 600px; /* Define uma largura máxima */
+    margin: 60px auto; /* Centraliza o formulário horizontalmente e define um espaço no topo */
+    padding: 24px; /* Adiciona espaçamento interno ao formulário */
+    background-color: #40B0DF;
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra para destacar o formulário */
+}
+
+form h2 {
+    font-size: 32px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+form div {
+    display: flex;
+    flex-direction: column; /* Alinha os campos do formulário verticalmente */
+    gap: 16px; /* Adiciona espaço entre os elementos do formulário */
+}
+
+form input {
+    font-size: 16px;
+    padding: 8px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Adiciona bordas arredondadas aos campos de input */
+}
+
+form button {
+    height: 40px;
+    padding: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #0067B3;
+    color: #FFD53D;
+    border: none;
+    border-radius: 4px;
+    align-self: center; /* Centraliza o botão dentro do formulário */
+}
+
+.container {
+    width: auto;
+    height: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    margin-top: 30px;
+    width: 90%; /* Reduz a largura da tabela para dar mais espaço nas laterais */
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-size: 24px;
+    border-collapse: collapse; /* Remove espaços entre as células */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra à tabela */
+}
+
+table th {
+    font-size: 28px;
+    background-color: #0067B3;
+    color: #FFD53D;
+    padding: 16px;
+    border: none; /* Remove as bordas da tabela */
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+table tr:hover {
+    background-color: #e0f7ff; /* Destaque leve ao passar o mouse */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #0067B3;
+}
+
+footer h2 {
+    color: #FFD53D;
+    padding: 16px;
+}
+
+footer a {
+    color: #FFD53D;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 48px;
+    padding-bottom: 8px;
+}
